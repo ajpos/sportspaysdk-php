@@ -1,0 +1,13 @@
+{
+    "name": "sportspayinc/sportspay-sdk-php",
+    "description": "A PHP SDK for Sportspay's API",
+    "autoload": {
+        "psr-4": {
+            "Sportspay\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "stripe/stripe-php": "^9.0"
+    }
+}
